@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Plan",
+    "price": "$12/month",
+    "membership": "Monthly",
+    "description": "Perfect for beginners starting their fitness journey with essential gym access.",
+    "features": [
+      "Gym Access (6 AM - 10 PM)",
+      "Basic Equipment",
+      "Locker Facility",
+      "Free WiFi",
+      "1 Fitness Assessment"
+    ],
+    "tag": "Starter",
+    "popular": false
+  },
+  {
+    "id": 2,
+    "name": "Standard Plan",
+    "price": "$30/3 months",
+    "membership": "Quarterly",
+    "description": "Ideal for regular gym-goers who want guided training and better results.",
+    "features": [
+      "All Basic Features",
+      "Cardio Training",
+      "Strength Training Area",
+      "2 Personal Trainer Sessions / Week",
+      "Progress Tracking",
+      "Mobile App Access"
+    ],
+    "tag": "Most Popular",
+    "popular": true
+  },
+  {
+    "id": 3,
+    "name": "Premium Plan",
+    "price": "$95/year",
+    "membership": "Yearly",
+    "description": "Best value plan with full access, personal training, and complete fitness support.",
+    "features": [
+      "All Standard Features",
+      "Unlimited Personal Training",
+      "Custom Diet Plan",
+      "Steam, Sauna & Shower",
+      "Supplement Guidance",
+      "Body Composition Analysis",
+      "Group Classes (Yoga, Zumba)"
+    ],
+    "tag": "Best Value",
+    "popular": true
+  }
+
+]
+

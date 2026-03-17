@@ -48,20 +48,23 @@ const NavBar = () => {
           className="flex gap-4 items-center "
         >
           {open ? (
-            <X className="md:hidden cursor-pointer"></X>
+            <X className="md:hidden cursor-pointer "></X>
           ) : (
-            <Menu className="md:hidden cursor-pointer"></Menu>
+            <Menu className="md:hidden cursor-pointer "></Menu>
           )}
 
           <ul
             className={`md:hidden absolute left-4 right-4 mt-4 rounded-2xl backdrop-blur-lg bg-purple-600/30 border border-white/20 shadow-2xl px-6 py-4 space-y-3 transform transition-all duration-500 origin-top  ${
               open
-                ? "opacity-100 scale-100 translate-y-30"
+               ? "scale-100 translate-y-30"
                 : "opacity-0 scale-75 -translate-y-2 pointer-events-none"
             }`}
           >
             {links}
           </ul>
+
+
+
 
           <h1 className="text-2xl">Pricing </h1>
         </span>
