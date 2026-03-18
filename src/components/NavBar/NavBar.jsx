@@ -54,7 +54,7 @@ const NavBar = () => {
           )}
 
           <ul
-            className={`md:hidden absolute left-4 right-4 mt-4 rounded-2xl backdrop-blur-lg bg-purple-600/30 border border-white/20 shadow-2xl px-6 py-4 space-y-3 transform transition-all duration-500 origin-top  ${
+            className={`md:hidden absolute left-4 right-4 mt-4 rounded-2xl backdrop-blur-lg bg-purple-600/30 border border-white/20 shadow-2xl px-6 py-4 space-y-3 transform transition-all duration-500 origin-top z-1 ${
               open
                ? "scale-100 translate-y-30"
                 : "opacity-0 scale-75 -translate-y-2 pointer-events-none"
