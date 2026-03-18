@@ -15,7 +15,7 @@ const GymChart = ({ gymData }) => {
     <div className="w-full max-w-4xl mx-auto p-6 rounded-2xl bg-white/10 backdrop-blur-lg shadow-2xl border border-white/20">
       
       <h2 className="text-2xl font-bold mb-4 text-center text-white">
-        Gym Membership Analytics
+       Best Gym Membership Analytics
       </h2>
 
       <ResponsiveContainer width="100%" height={350}>
@@ -32,7 +32,7 @@ const GymChart = ({ gymData }) => {
           <Tooltip
             contentStyle={{
               backgroundColor: "#111",
-              border: "none",
+              border: "none", 
               borderRadius: "10px",
             }}
           />

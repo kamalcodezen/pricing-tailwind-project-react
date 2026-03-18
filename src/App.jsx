@@ -1,4 +1,4 @@
-import { Suspense } from "react";
+import { Suspense, use, useState } from "react";
 import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import PricingSection from "./components/PricingSection/PricingSection";

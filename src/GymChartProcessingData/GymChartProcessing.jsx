@@ -32,7 +32,7 @@ const GymChartProcessing = ({ gymAxiosFetchData }) => {
   return (
     <div className="w-full max-w-4xl  rounded-2xl mx-auto shadow-2xl backdrop-blur-lg border border-pink-400 p-6 bg-pink-800">
       <h2 className="text-2xl font-bold mb-4 text-center text-white">
-        Gym Location
+        Best Gym Location 
       </h2>
 
       <ResponsiveContainer width="100%" height={350}>
