@@ -13,9 +13,11 @@ const PricingCard = ({ pricing }) => {
           <h1 className="text-2xl font-medium">{name}</h1>
           <h4 className="text-3xl font-semibold">{price}</h4>
         </div>
-        <h1 className="text-lg text-amber-400 bg-blue-600 px-3 rounded-xl">
-          {popular && "Popular"}
-        </h1>
+        {popular && (
+          <span className="text-lg text-amber-400 bg-blue-600 px-3 rounded-xl">
+            Popular
+          </span>
+        )}
       </div>
 
       {/* body */}
@@ -25,7 +27,9 @@ const PricingCard = ({ pricing }) => {
           <PricingFeature key={index} feature={feature}></PricingFeature>
         ))}
       </div>
-      <button className="btn bg-blue-700 w-full hover:opacity-80">Subscribe</button>
+      <button className="btn bg-blue-700 w-full hover:opacity-80">
+        Subscribe
+      </button>
     </div>
   );
 };
