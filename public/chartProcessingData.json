@@ -1,0 +1,34 @@
+[
+  {
+    "name": "FitZone Gym",
+    "members": 120,
+    "location": {
+      "city": "Kolkata",
+      "country": "India"
+    }
+  },
+  {
+    "name": "PowerHouse Gym",
+    "members": 90,
+    "location": {
+      "city": "Delhi",
+      "country": "India"
+    }
+  },
+  {
+    "name": "Muscle Factory",
+    "members": 150,
+    "location": {
+      "city": "Mumbai",
+      "country": "India"
+    }
+  },
+  {
+    "name": "Iron Paradise",
+    "members": 80,
+    "location": {
+      "city": "Bangalore",
+      "country": "India"
+    }
+  }
+]

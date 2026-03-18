@@ -6,14 +6,15 @@ import {
   Tooltip,
   CartesianGrid,
   Legend,
-  ResponsiveContainer
+  ResponsiveContainer,
+  BarChart
 } from "recharts";
 
 const GymChart = ({ gymData }) => {
   return (
     <div className="w-full max-w-4xl mx-auto p-6 rounded-2xl bg-white/10 backdrop-blur-lg shadow-2xl border border-white/20">
       
-      <h2 className="text-xl font-bold mb-4 text-center text-white">
+      <h2 className="text-2xl font-bold mb-4 text-center text-white">
         Gym Membership Analytics
       </h2>
 

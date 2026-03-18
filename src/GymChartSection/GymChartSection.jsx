@@ -4,7 +4,7 @@ import GymChart from "./GymChart";
 
 const GymChartSection = ({ gymDataPromise }) => {
   const gymChartData = use(gymDataPromise);
-  console.log(gymChartData);
+  // console.log(gymChartData);
   return (
     <div>
      <GymChart gymData={gymChartData} />
