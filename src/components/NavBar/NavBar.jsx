@@ -66,7 +66,7 @@ const NavBar = () => {
 
 
 
-          <h1 className="text-2xl">Pricing </h1>
+          <h1 className="text-2xl font-bold"><span className="text-purple-300">Kamal</span> UI</h1>
         </span>
 
         {/* middle menu */}
