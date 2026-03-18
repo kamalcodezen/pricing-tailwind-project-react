@@ -1,0 +1,50 @@
+[
+  {
+    "month": "Jan",
+    "totalMembers": 50,
+    "newMembers": 20,
+    "activeMembers": 45,
+    "male": 30,
+    "female": 20
+  },
+  {
+    "month": "Feb",
+    "totalMembers": 80,
+    "newMembers": 35,
+    "activeMembers": 70,
+    "male": 50,
+    "female": 30
+  },
+  {
+    "month": "Mar",
+    "totalMembers": 120,
+    "newMembers": 40,
+    "activeMembers": 100,
+    "male": 70,
+    "female": 50
+  },
+  {
+    "month": "Apr",
+    "totalMembers": 160,
+    "newMembers": 50,
+    "activeMembers": 140,
+    "male": 90,
+    "female": 70
+  },
+  {
+    "month": "May",
+    "totalMembers": 200,
+    "newMembers": 60,
+    "activeMembers": 170,
+    "male": 110,
+    "female": 90
+  },
+  {
+    "month": "Jun",
+    "totalMembers": 240,
+    "newMembers": 70,
+    "activeMembers": 210,
+    "male": 130,
+    "female": 110
+  }
+]

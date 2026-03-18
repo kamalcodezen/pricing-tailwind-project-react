@@ -14,9 +14,9 @@ const PricingSection = ({ pricingFetch }) => {
         ></DaisyPricingSection>
       ))}
 
-      {pricingData.map((pricing) => (
+      {/* {pricingData.map((pricing) => (
         <PricingCard key={pricing.id} pricing={pricing}></PricingCard>
-      ))}
+      ))} */}
     </div>
   );
 };

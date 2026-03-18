@@ -2,7 +2,7 @@ import React from "react";
 import PricingFeature from "./PricingFeature";
 
 const PricingCard = ({ pricing }) => {
-  console.log(pricing);
+  // console.log(pricing);
   const { name, price, popular, description, features } = pricing;
 
   return (
